@@ -1,12 +1,14 @@
 #include <iostream>
 #include <adder.h>
 #include <GLFW/glfw3.h>
+#include <OLASConfig.h>
 // CmakeTest
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::cout << "Hey, Zues!\n";
+    std::cout << argv[0] << "\nOLAS Version: " << OLAS_VERSION_MAJOR << "." << OLAS_VERSION_MINOR << "\n";
 
+    std::cout << "Hey, Zues!\n";
     std::cout << add(72.1f, 73.8f) << '\n';
 
     GLFWwindow *window;
