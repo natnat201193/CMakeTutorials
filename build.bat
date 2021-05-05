@@ -1,1 +1,1 @@
-cmake --build ..\CMakeTutorialsBuild --clean-first --
+cmake --build ..\CMakeTutorialsBuild --clean-first --config Debug --
